@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} — transhumanists</title>
+  <meta name="description" content="{{ page.description }}">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{{ page.description }}">
+  <meta property="og:type" content="website">
+  {% if page.canonical %}<link rel="canonical" href="{{ page.canonical }}">{% endif %}
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
+  <script src="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/index.js" defer></script>
+</head>
+<body>
+  {{ content }}
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        Part of <a href="https://github.com/neohiro" rel="noopener">neohiro</a> ·
+        <a href="https://github.com/neohiro/transhumanists" rel="noopener">GitHub</a> ·
+        <a href="{{ '/LICENSE' | relative_url }}">License (MIT)</a>
+      </p>
+      <p class="footer-tagline">
+        <em>"Becoming more than biology intended."</em>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,22 @@
+title: transhumanists
+description: "Transhumanism & human enhancement — biohacking, longevity, cognitive augmentation, AI integration."
+url: "https://transhumanists.github.io"
+baseurl: ""
+github_username: neohiro
+github_repo: transhumanists
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highighlighter: rouge
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .github
+  - README.md
+  - LICENSE
+  - "*.ps1"
+  - "*.sh"
