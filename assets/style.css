@@ -231,10 +231,6 @@ section a:hover { text-decoration: underline; }
 .site-footer a:hover { color: var(--accent); }
 .footer-tagline { margin-top: 8px; font-size: 0.875rem; }
 
-/* ---- Reveal animation ---- */
-.reveal { opacity: 0; transform: translateY(20px); transition: opacity 0.5s ease, transform 0.5s ease; }
-.reveal-in { opacity: 1; transform: translateY(0); }
-
 /* ---- Responsive ---- */
 @media (max-width: 640px) {
   .hero { min-height: 50vh; }
