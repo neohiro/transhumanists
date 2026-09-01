@@ -8,7 +8,7 @@ github_repo: transhumanists
 markdown: kramdown
 kramdown:
   input: GFM
-  syntax_highighlighter: rouge
+  syntax_highlighter: rouge
 
 exclude:
   - Gemfile
