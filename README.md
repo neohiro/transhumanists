@@ -47,5 +47,7 @@
 </p>
 
 <div align="center">
-  <a href="https://www.freevisitorcounters.com/en/home/stats/id/1631172" rel="noopener noreferrer nofollow"><img src="https://www.freevisitorcounters.com/en/counter/render/1631172/t/1" alt="Visitor counter" /></a>
+  </a>
 </div>
+
+[![Visitors](https://api.visitorbadge.io/api/visitors?path=github.com%2Fneohiro%2Ftranshumanists&label=Visitors&countColor=%23263759)](https://visitorbadge.io/status?path=github.com%2Fneohiro%2Ftranshumanists)
